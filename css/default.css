@@ -1,0 +1,76 @@
+/* Reset some default styles for consistency across browsers */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styling */
+header {
+    background: #0872b9;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Navigation bar styling */
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+/* Section styling */
+section {
+    margin: 20px 0;
+    padding: 10px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+/* Footer styling */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #35424a;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #222;
+}
