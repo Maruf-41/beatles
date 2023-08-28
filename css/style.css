@@ -1,52 +1,8 @@
-/* #top_header .header_contact{} */
-#top_header .header_contact p{
-    color: white;
-    font-size: 13px;
-    line-height: 24px;
-    font-weight: 400;
-    font-family: 'Arial', 'sans-serif';
-}
-#top_header .header_contact p span{
-    font-weight: 600;
-}
-/* #top_header .header_social_link{} */
-#top_header .right_link{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: end;
-}
-#top_header .right_link a{
-    font-size: 14px;
-    line-height: 14px;
-    color: rgb(235, 218, 218);
-    padding: 12px 10px;
+#top_header {
+    background-color: var(--brand1);
 }
 .nav_bar{
-    padding: 5px 0px;
-    background-color: var(--brand1);
-    display: none;
-}
-.nav_bar .logo img{
-    height: 70px;
-}
-#menu{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: end;
-    color: #3ead5f;
-    font-family: 'emoji'
-}
-#menu li{
-    margin-left: 30px;
     
 }
-#menu li a{
-    transition:all ease-in-out .4s;
-}
-#menu li a:hover{
-    color: rgb(236, 221, 11);
-    cursor: pointer;
-    
-}
+.nav_bar .logo{}
+.nav_bar .logo img{}
